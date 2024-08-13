@@ -19,6 +19,6 @@ int main(void)
 	}
 
 	//! Another way
-	printf("%.2f", op == '+' ? n1 + n2 : op == '-' ? n1 - n2 : op == '*' ? n1 * n2 : n1 / n2);
+	//? printf("%.2f", op == '+' ? n1 + n2 : op == '-' ? n1 - n2 : op == '*' ? n1 * n2 : n1 / n2);
 	return 0;
 }
