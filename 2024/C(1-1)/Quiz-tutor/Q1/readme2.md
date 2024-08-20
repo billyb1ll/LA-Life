@@ -22,8 +22,3 @@ This C program calculates electricity bills using progressive rates. The user in
 2. **Input:** `120`  
    **Output:** `345`
    - **Explanation:** The first 50 units are charged at 2.5 Baht each (50 × 2.5 = 125). The next 50 units are charged at 3 Baht each (50 × 3 = 150). The remaining 20 units are charged at 3.5 Baht each (20 × 3.5 = 70). Total cost = 125 + 150 + 70 = 345 Baht.
-
-## Important Notes
-- The program will be checked automatically by software. Ensure the output is exactly as specified.
-- Input must be an integer.
-- Only print the answer on a separate line, without any additional text.
