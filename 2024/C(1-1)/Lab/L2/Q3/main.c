@@ -16,6 +16,7 @@ int main(){
             printf("all different\n");
         }
     }
+    
 	//? and or way
 	// if(n1 == n2 && n2 == n3){
 	// 	printf("all the same");
