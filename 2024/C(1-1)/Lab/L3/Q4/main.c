@@ -6,14 +6,13 @@ int main(void) {
   do {
     scanf("%c", &input);
     if (input >= '0' && input <= '9') {
-
       n = input - '0';
       if (n % 2 != 0) {
-		count++;
+        count++;
         sum += n;
       }
     }
   } while (input != 'q');
-  printf("%d:%d",count, sum);
+  printf("%d:%d", count, sum);
   return 0;
 }
