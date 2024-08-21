@@ -6,16 +6,36 @@ int main(void) {
   int quantity;
   scanf("%c %d", &product_type, &quantity);
 
-  if (product_type == 'A') {
+  // if else version
+  //   if (product_type == 'A') {
+  //     price = 500 * quantity;
+  //   } else if (product_type == 'B') {
+  //     price = 99.5 * quantity;
+  //   } else if (product_type == 'C') {
+  //     price = 1499 * quantity;
+  //   } else if (product_type == 'D') {
+  //     price = 1000 * quantity;
+  //   } else {
+  //     price = 0;
+  //   }
+
+  // switch version
+  switch (product_type) {
+  case 'A':
     price = 500 * quantity;
-  } else if (product_type == 'B') {
+    break;
+  case 'B':
     price = 99.5 * quantity;
-  } else if (product_type == 'C') {
+    break;
+  case 'C':
     price = 1499 * quantity;
-  } else if (product_type == 'D') {
+    break;
+  case 'D':
     price = 1000 * quantity;
-  } else {
+    break;
+  default:
     price = 0;
+    break;
   }
 
   if (price >= 2000) {
