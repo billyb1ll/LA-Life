@@ -13,6 +13,5 @@ int main() {
   } else if (unit >= 101) {
     cost = (2.5 * 50) + (50 * 3) + ((unit - 100) * 3.5);
   }
-
   printf("%.2f", cost);
 }
