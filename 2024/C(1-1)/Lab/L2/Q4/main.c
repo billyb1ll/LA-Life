@@ -3,11 +3,13 @@
 int main(void) {
   float n1, n2;
   char op;
-
   scanf("%f %f %c", &n1, &n2, &op);
+
+
   //! Another way
   switch (op) {
   case '+':
+
     printf("%.2f", n1 + n2);
     break;
   case '-':
@@ -21,6 +23,7 @@ int main(void) {
     break;
   default:
     printf("Invalid operator");
+    break;
   }
 
   //! Hard way
