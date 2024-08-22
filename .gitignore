@@ -3,6 +3,8 @@ output
 outs
 run.sh
 testcases
+.vscode
+.
 # Created by https://www.toptal.com/developers/gitignore/api/c
 # Edit at https://www.toptal.com/developers/gitignore?templates=c
 
@@ -60,3 +62,4 @@ Mkfile.old
 dkms.conf
 
 # End of https://www.toptal.com/developers/gitignore/api/c
+2024/C(1-1)/Lab/.DS_Store
