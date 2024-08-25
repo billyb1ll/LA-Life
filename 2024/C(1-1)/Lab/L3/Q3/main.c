@@ -2,15 +2,19 @@
 
 int main(void) {
   int n1, n2, n3, n4, win = 0;
-  do {
+
+  while (1) {
     scanf("%d %d %d %d", &n1, &n2, &n3, &n4);
-    win = (n1 + n2 + n3 + n4 == 42) ? win + 1 : win;
-    printf((n1 + n2 + n3 + n4 == 42) ? "You win!\n" : "You lose!\n");
-    if (n1 + n2 + n3 + n4 != 42) {
+
+    if (n1 + n2 + n3 + n4 == 42) {
+      win++;
+      printf("You win!\n");
+    } else {
+      printf("You lose!\n");
       break;
     }
+  }
 
-  } while (1);
   printf("Number of wins: %d", win);
 
   return 0;
