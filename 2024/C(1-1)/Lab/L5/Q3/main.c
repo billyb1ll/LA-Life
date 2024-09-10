@@ -1,6 +1,17 @@
 #include <stdio.h>
 
 int main(void) {
-  //! หาอะไรอยู่จ๊ะคนเก่ง🤭
+  int n;
+  scanf("%d", &n);
+  for (int i = 1; i <= n; i++) {
+	for (int j = 1; j <= n; j++) {
+	  if (n-i < j && j <= n) {
+		printf("* ");
+	  } else {
+		printf("  ");
+	  }
+	}
+	printf("\n");
+  }
   return 0;
 }

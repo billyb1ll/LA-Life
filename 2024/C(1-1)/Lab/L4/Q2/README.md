@@ -17,7 +17,7 @@ Sample input:
 5
 ```
 Sample output:
-```
+```                                                             
 120
 ```
 
