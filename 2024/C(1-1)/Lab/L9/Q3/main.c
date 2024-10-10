@@ -12,7 +12,7 @@ int main(void) {
   scanf("%d %d %c", &r, &c, &ch);
   for (int i = 0; i < r; i++) {
     print_c(c, ch);
-    printf("\n");
+    printf(r - i > 1 ? "\n" : "");
   }
   return 0;
 }
