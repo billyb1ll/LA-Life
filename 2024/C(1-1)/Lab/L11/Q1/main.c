@@ -7,7 +7,8 @@ int main(void) {
   //----start to edit the code here----//
   // ptr declaration and assignment
   // from here you should replace k with a pointer ptr
-  int *ptr = &k;
+  int *ptr;
+  ptr = &k;
 
   int a = *ptr;
   int b = a + *ptr;

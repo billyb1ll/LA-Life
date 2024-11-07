@@ -2,7 +2,10 @@
     "files.associations": {
         "*.embeddedhtml": "html",
         ".fantomasignore": "ignore",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "queue": "c",
+        "stack": "c",
+        "stdlib.h": "c"
     },
     "C_Cpp.autocompleteAddParentheses": true,
 }
